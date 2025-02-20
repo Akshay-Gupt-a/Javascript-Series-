@@ -17,7 +17,7 @@ console.log(nothingInNumber)// 0 (It converts in 0 )
 
 // For boolean  0 and 1
 
-
+//Imp
 // Notes
 //"33"=> 33
 //"33abc"=> NaN (type number)
@@ -36,3 +36,28 @@ console.log(typeof isLoggedIn)// number
 let someNumber=33
 let stringNumber=String(someNumber)
 console.log(typeof stringNumber)//string
+
+// ******************* Operation *****************
+let value=3
+let negValue=-value
+console.log(negValue)//-3
+
+let str1="hello"
+let str2="Akshay"
+let str3=str1+str2
+console.log(str3)
+
+console.log("1"+2)//12
+console.log(1+"2")//12
+console.log("1"+"2")//12
+console.log("1"+2+2)//122
+console.log(1+2+"2")
+console.log(+"1"+2)//3
+
+console.log(true)//true
+console.log(+true)//1
+//console.log(true+)//error
+
+
+let num1=num2=num3=3+3
+console.table([num1,num2,num3])
