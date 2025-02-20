@@ -31,3 +31,32 @@ console.log(typeof myFunction)// function (but it is object function)
 console.log(typeof outSideTemp)//object (for null)
 console.log(typeof heroe)//object
 console.log(typeof myObj)//object
+
+
+
+
+
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack(Primitive) and Heap(Non-Primitive)
+let valueOne="Akshay is here"
+let valueTwo=valueOne;// ValueTwo get the copyt of valueOne;
+valueTwo="Aryan is here"
+console.log(valueOne)//Akshay is here
+console.log(valueTwo)//Aryan is here
+
+// Reference
+let userOne={
+    email:"akshayGupta@gmail.com",
+    upi:"Ok@upi"
+
+}
+let userTwo=userOne;// It got reference of userOne(so they are pointing to same location)
+userTwo.email="aryanGupta@gmai.com"
+console.log(userOne)//{ email: 'aryanGupta@gmai.com', upi: 'Ok@upi' }
+console.log(userTwo)//{ email: 'aryanGupta@gmai.com', upi: 'Ok@upi' }
+
+
