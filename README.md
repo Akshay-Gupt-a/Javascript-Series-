@@ -1,2 +1,2 @@
 # Javascript-Series-
-Javascript Learning 
+It is Series where I am learning about Javascript....
